@@ -10,5 +10,8 @@ The GAB-Net is implemented under the framework of ultralytics, and the following
     pip install thop
     pip install sentry_sdk
     
-## Step 3: Move the project file to sitepackages.
+## Step 3: Move the project folder to sitepackages.
+    rm -rf [Your Path]/python3.X/dist-packages/ultralytics/
+    cp -r ./ultralytics/ultralytics /usr/local/lib/python3.8/dist-packages/
+    
 
