@@ -47,7 +47,7 @@ After finishing training, you can find the weight and relevant analysis files at
 ```
 [Your Path]/ultralytics/ultralytics/runs/detect/[train file]
 ```
-Then conduct the test command to obatain mAP, FPS, and Parameters simultaneously.
+Then conduct the test command to obtain mAP, FPS, and Parameters simultaneously.
 ```
 yolo task=detect mode=val model=runs/detect/[train file]/weights/best.pt data=yolo/data/datasets/Dior.yaml  batch=16 split=test
 ```
