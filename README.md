@@ -8,7 +8,7 @@
 ## Performance
 
 ## Installation
-Please find the detailed installation information in [Install.md](readme/Install.md).
+Please find the detailed installation information in [Install.md](readme/Installation.md).
 
 ## Usage
 ### Dataset preparation
