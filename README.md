@@ -16,9 +16,7 @@ Please find the detailed installation information in [Install.md](./Installation
 ### Dataset preparation
 Please download the official datasets:
 
-Dior:
-
-NWPU VHR-10:
+NWPU VHR-10 & Dior: https://gcheng-nwpu.github.io/#Datasets
 
 ```
 Dior/NWPU VHR-10
