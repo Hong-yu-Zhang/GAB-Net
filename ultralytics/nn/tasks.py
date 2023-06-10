@@ -8,7 +8,7 @@ from pathlib import Path
 import thop
 import torch
 import torch.nn as nn
-from ultralytics.nn.modules import *
+from ultralytics.nn.backbone import *
 from ultralytics.nn.neck import *
 from ultralytics.nn.head import *
 from ultralytics.yolo.utils import DEFAULT_CFG_DICT, DEFAULT_CFG_KEYS, LOGGER, RANK, colorstr, emojis, yaml_load
