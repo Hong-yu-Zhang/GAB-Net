@@ -446,12 +446,12 @@ def parse_model(d, ch, verbose=True):  # model_dict, input_channels(3)
                 args[j] = eval(a) if isinstance(a, str) else a  # eval strings
 
         n = n_ = max(round(n * gd), 1) if n > 1 else n  # depth gain
-        if m in (Classify, Conv, ConvTranspose, GhostConv, DWConv, GLFEM, C2f, C3, C3TR, nn.ConvTranspose2d, DWConvTranspose2d):
+        if m in (Classify, Conv, ConvTranspose, DWConv, GLFEM, C2f, C3, nn.ConvTranspose2d, DWConvTranspose2d):
             c1, c2 = ch[f], args[0]
             if c2 != nc:  # if c2 not equal to number of classes (i.e. for Classify() output)
                 c2 = make_divisible(c2 * gw, 8)
             args = [c1, c2, *args[1:]]
-            if m in (C2f, C3, C3TR):
+            if m in (C2f, C3):
                 args.insert(2, n)  # number of repeats
                 n = 1
         elif m is AFFA:
