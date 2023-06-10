@@ -19,7 +19,7 @@ Python: 3.8
 <p align="center"> <img src="./img/result.png" width="800"> </p>
 
 ## Installation
-Please find the detailed installation information in [Install.md](readme/Installation.md).
+Please find the detailed installation information in [Install.md](./Installation.md).
 
 ## Usage
 ### Dataset preparation
