@@ -55,7 +55,7 @@ yolo task=detect mode=val model=runs/detect/[train file]/weights/best.pt data=yo
 ```
 
 ## Visulization results
-<p align="center"> <img src="./img/visualization/Overall.png" width="800"> </p>
+<p align="center"> <img src="./img/visualization.png" width="800"> </p>
 
 
 
