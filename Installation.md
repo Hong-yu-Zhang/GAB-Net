@@ -1,4 +1,11 @@
 ## Overall environment
+Ubuntu: 20.04.3   
+
+PyTorch: 1.10.2  
+
+Cuda: 11.3.0   
+
+Python: 3.8
 
 ## Step 1: Download the project 
 
