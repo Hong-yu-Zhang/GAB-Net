@@ -1,0 +1,7 @@
+train: /hy-tmp/GAB-Net/Dior/images/train
+val: /hy-tmp/GAB-Net/Dior/images/val
+test: /hy-tmp/GAB-Net/Dior/images/test
+nc: 20
+names: ['airplane', 'airport', 'baseballfield', 'basketballcourt', 'bridge', 'chimney', 'dam',
+              'Expressway-Service-area', 'Expressway-toll-station', 'golffield', 'groundtrackfield', 'harbor',
+              'overpass', 'ship', 'stadium', 'storagetank', 'tenniscourt', 'trainstation', 'vehicle', 'windmill']
