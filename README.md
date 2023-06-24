@@ -1,5 +1,5 @@
 # GAB-Net
-* Author list: Hongyu Zhang, Yunbo Rao, 
+* Author list: Hongyu Zhang, Yunbo Rao, Jie Shao, Fanman Meng, Naveed Ahmad
 * This is the implementation code for paper: "GAB-Net: A Robust Detector for Remote Sensing Object Detection under Dramatic Sacle Variation and Complex Background"
 * The relevant paper is under submission in journal "IEEE Geoscience and Remote Sensing Letters"
 
