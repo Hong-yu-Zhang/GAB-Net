@@ -56,9 +56,6 @@ class AFFA(nn.Module):
         self.sigmoid = nn.Sigmoid()
 
     def forward(self, x):
-        """
-        让语义丰富那个当x  
-        """
         F_h = x[0]
         F_l = x[1]
         U = torch.concat((F_l, F_h),1)
