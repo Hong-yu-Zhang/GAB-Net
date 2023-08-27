@@ -57,3 +57,4 @@ yolo task=detect mode=val model=runs/detect/[train file]/weights/best.pt data=yo
 
 
 
+
