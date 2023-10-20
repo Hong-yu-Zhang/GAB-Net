@@ -55,7 +55,22 @@ yolo task=detect mode=val model=runs/detect/[train file]/weights/best.pt data=yo
 <p align="center"> <img src="./img/visualization.png" width="800"> </p>
 
 ## Acknowledgement
-This work is implemented under the framework: [ultralytics](https://github.com/ultralytics/ultralytics)
+This work is implemented under the framework: [ultralytics](https://github.com/ultralytics/ultralytics). We appreciate the contributors for the construction of framework and useful toolbox!
+
+## Citation
+If you find our work useful, please cite our paper:
+```bibtex
+@ARTICLE{10286841,
+  author={Zhang, Hongyu and Rao, Yunbo and Shao, Jie and Meng, Fanman and Ahmad, Naveed},
+  journal={IEEE Geoscience and Remote Sensing Letters}, 
+  title={GAB-Net: A Robust Detector for Remote Sensing Object Detection under Dramatic Sacle Variation and Complex Backgrounds}, 
+  year={2023},
+  volume={},
+  number={},
+  pages={1-1},
+  doi={10.1109/LGRS.2023.3325410}}
+```
+
 
 
 
