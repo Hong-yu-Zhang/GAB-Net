@@ -55,6 +55,8 @@ yolo task=detect mode=val model=runs/detect/[train file]/weights/best.pt data=yo
 ## Visulization results
 <p align="center"> <img src="./img/visualization.png" width="800"> </p>
 
+## Acknowledgement
+This work is implemented under the framework [ultralytics](https://github.com/ultralytics/ultralytics)
 
 
 
