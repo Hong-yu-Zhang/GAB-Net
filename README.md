@@ -63,12 +63,13 @@ If you find our work useful, please cite our paper:
 @ARTICLE{10286841,
   author={Zhang, Hongyu and Rao, Yunbo and Shao, Jie and Meng, Fanman and Ahmad, Naveed},
   journal={IEEE Geoscience and Remote Sensing Letters}, 
-  title={GAB-Net: A Robust Detector for Remote Sensing Object Detection under Dramatic Sacle Variation and Complex Backgrounds}, 
+  title={GAB-Net: A Robust Detector for Remote Sensing Object Detection Under Dramatic Scale Variation and Complex Backgrounds}, 
   year={2023},
-  volume={},
+  volume={20},
   number={},
-  pages={1-1},
+  pages={1-5},
   doi={10.1109/LGRS.2023.3325410}}
+
 ```
 
 
